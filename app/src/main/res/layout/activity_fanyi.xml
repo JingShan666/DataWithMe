@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/top_bar"
+        />
+
+    <LinearLayout
+        style="@style/layout_margin_left_right"
+        android:background="@drawable/white_frame"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        >
+        <!--<ImageView-->
+            <!--android:id="@+id/round_earth"-->
+            <!--android:background="@color/accent"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:src="@drawable/earth"-->
+            <!--/>-->
+
+        <!--<com.example.administrator.myapplication1.utils.CustomImageView-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:id="@+id/round_earth"-->
+            <!--android:src="@drawable/earth"-->
+            <!--android:background="@color/accent"-->
+            <!--/>-->
+
+        <ImageView
+            android:id="@+id/round_earth"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/earth"
+            android:background="@color/accent"
+          />
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="精译包余额："
+            />
+        <TextView
+            android:id="@+id/my_char"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="0字符"
+            />
+    </LinearLayout>
+    <View
+        android:visibility="gone"
+        android:layout_marginTop="1dp"
+        android:layout_height="1px"
+        android:background="@color/btn_gray_pressed_status"
+        android:layout_width="match_parent">
+
+    </View>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:src="@drawable/choosegold"
+        />
+
+    <LinearLayout
+        style="@style/layout_margin_left_right"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/white_frame">
+
+        <RelativeLayout
+
+            android:id="@+id/re"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:background="@color/sky_blue">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$199"
+                    android:textColor="@color/window_background"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="($155)"
+                    android:textColor="@color/window_background"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text="5000+200 "
+            android:textColor="@color/primary_text"
+            android:textSize="17sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="字符"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layout_margin_left_right"
+
+        android:background="@drawable/hotgold"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <RelativeLayout
+            android:id="@+id/re"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:background="@color/sky_blue">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$399"
+                    android:textColor="@color/window_background"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="($1000)"
+                    android:textColor="@color/window_background"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text="10000"
+            android:textColor="@color/primary_text"
+            android:textSize="17sp" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="+1000 "
+            android:textColor="@color/accent"
+            android:textSize="17sp" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="字符"
+            android:textSize="15sp" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/white_frame"
+        style="@style/layout_margin_left_right"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <RelativeLayout
+            android:id="@+id/re"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:background="@color/sky_blue">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$599"
+                    android:textColor="@color/window_background"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="($1500)"
+                    android:textColor="@color/window_background"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text="15000+2000 "
+            android:textColor="@color/primary_text"
+            android:textSize="17sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="字符"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/white_frame"
+        style="@style/layout_margin_left_right"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <RelativeLayout
+            android:id="@+id/re"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:background="@color/sky_blue">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$799"
+                    android:textColor="@color/window_background"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="($2000)"
+                    android:textColor="@color/window_background"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text="20000+3000 "
+            android:textColor="@color/primary_text"
+            android:textSize="17sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="字符"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/white_frame"
+        style="@style/layout_margin_left_right"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <RelativeLayout
+            android:id="@+id/re"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:background="@color/sky_blue">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$999"
+                    android:textColor="@color/window_background"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="($2500)"
+                    android:textColor="@color/window_background"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text="25000+5000 "
+            android:textColor="@color/primary_text"
+            android:textSize="17sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="字符"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</LinearLayout>

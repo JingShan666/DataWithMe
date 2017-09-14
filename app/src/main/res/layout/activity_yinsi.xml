@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    <include
+        layout="@layout/toolbar"
+        />
+
+    <ScrollView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="      perdate尊重用户的隐私权，并制定隐私政策，保护您的隐私权。隐私政策包括：perdate的用户情况，我们所收集的信息，怎样利用这些信息，以及与谁分享这些信息。当您使用我们的网站或服务，或与我们进行商务交易时，我们建议你仔细阅读“隐私政策”。通过使用我们的网站，表明您已接受本保密协议的规定。perdate非常重视网络隐私。如果您对该隐私政策有任何疑问，请联系我们。" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/primary_text"
+                android:text="1,未满18岁的人士"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="perdate不会故意收集或保存未满18岁人士的个人验证信息或非个人验证信息，本网站下的任何项目均不面向未满18岁的人士开放。如果你未满18岁，请停止使用或禁止进入本网站或服务。如果perdate获悉所收集的信息中有未满18岁人士的个人验证信息，本网站将采取合理的步骤，删除该信息。
+我们所收集的信息
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/primary_text"
+                android:text="2,我们所收集的信息"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="您填写的相关信息（包括您的个人信息，联系信息，以及当您创建会员档案时所填写的其他档案信息）；当你自由填写顾客调查表，提供反馈和参与竞争时，所提供的相关信息;如果您与我们联系，我们会记录你的通信信息;交易信息包括您从我们网站定购有关产品和服务的信息;浏览我们网站的访客，并且他们的信息已被记录的，可以有权以相同的信息登录，并有权更正信息或查看有关该信息的政策和规则。访客可以直接与我们联系。
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/primary_text"
+                android:text="3,其他方收集的信息
+"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="我们允许第三方（包括我们的授权服务提供商，广告公司和广告网站）在我们的网站上发表广告。如果你打开一个链接（例如一个广告标志），这将使你将离开我们的网站，登录其他的网站，如果你随后在其他网站上提供信息，我们将不能控制该信息的使用。本隐私政策将不对其他网站或广告商的信息保密负责。对于其他网站如何使用你的信息，perdate也将不为此负担任何责任。
+
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/primary_text"
+                android:text="4,我们怎样使用收集的信息？
+"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="管理您的用户账户（包括：通知您任何匹配的对象，提示，通告，更新资料或促销活动
+帮助你订制个性化的网站回访
+向您提供您所询问的信息，产品或服务，或者你感兴趣的信息；进行市场分析和调查
+帮助我们改进服务结构，布局和适用性
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/primary_text"
+                android:text="5,我们与谁分享所收集的信息"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="我们可能在特定方面将您的信息与第三方分享，例如：当您从我们网站订制服务时，我们提供你的信息给第三方进行付款处理。但是我们将控制第三方使用您的信息，并对此负责。我们有可能将您的某些信息透露给我们的合作公司，以便向您提供服务，例如：邮件或聊天功能服务。为了提供这些服务，我们必须将您的信息（包括您的perdate用户名和email地址）提供给我们的合作伙伴。
+
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/primary_text"
+                android:text="6,Cookies"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="我们竭力按照您的喜好为您提供服务。我们使用Cookies 保存并记录有关于您的信息。 Cookie是指通过网络服务器发送到您浏览器的一小部分数据，该数据储存在您的计算机硬盘上。
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/primary_text"
+                android:text="7,变更隐私政策
+"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="我们经常审核“隐私政策”，并在此页面公布政策的变更信息。我们鼓励会员经常审核我们的隐私政策，以便更好地了解我们所收集的信息，以及我们怎样运用信息，以及在何种情况下使用信息，与他人分享信息。
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/primary_text"
+                android:text="8,怎样联系我们
+"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="如果您对于本隐私政策或对于我们的信息处理方式有何疑问，或对于我们透露信息给第三方（为了直销的目的）有疑问，请通过email或信件与联系我们。邮箱：perdateteam@gmail.com
+"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

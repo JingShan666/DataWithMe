@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Administrator\AndroidStudioProjects\MyApplication1\sliding_menu_lib\assets"/><source path="C:\Users\Administrator\AndroidStudioProjects\MyApplication1\sliding_menu_lib\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\Administrator\AndroidStudioProjects\MyApplication1\sliding_menu_lib\src\debug\assets"/></dataSet></merger>

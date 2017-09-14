@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\Java\AndroidStudioProjects\MyApplication1\base_library_pullToRefresh_chenyoca\src\main\assets"/><source path="D:\Java\AndroidStudioProjects\MyApplication1\base_library_pullToRefresh_chenyoca\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="D:\Java\AndroidStudioProjects\MyApplication1\base_library_pullToRefresh_chenyoca\src\release\assets"/></dataSet></merger>

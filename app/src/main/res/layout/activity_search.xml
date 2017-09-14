@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        layout="@layout/toolbar"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/light_grey"
+        >
+    <TextView
+       android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用户名/关键字/ID"
+
+        android:textSize="17sp"
+        />
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="用户名/关键字/ID"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/light_grey"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/light_grey"
+            android:text="年龄段"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/low_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/light_grey"
+            android:text="18--"
+            android:textColor="@color/sky_blue"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/high_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/light_grey"
+            android:text="55"
+            android:textColor="@color/sky_blue"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    >
+
+    <com.example.administrator.myapplication1.utils.SeekBarPressure
+        android:layout_centerVertical="true"
+        android:id="@+id/search_seek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="55"
+        android:min="18"
+        android:maxHeight="4.0dip"
+        android:minHeight="4.0dip"
+
+        android:progress="1"
+        android:focusable="true"
+
+        />
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/light_grey"
+        >
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="高级搜索选项"
+
+        android:textSize="16sp"
+        />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:focusable="false"
+        android:hint="选择国家"
+
+        />
+    <ImageView
+        android:id="@+id/choose_date"
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:src="@drawable/arrow_right"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        />
+    </RelativeLayout>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/login"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_login_button"
+        android:text="立即搜索"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

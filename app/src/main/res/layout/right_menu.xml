@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="最近联系人"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:hint="搜索"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        />
+
+    <ImageView
+        android:id="@+id/img_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:src="@mipmap/ic_launcher_round" />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="您还没有联系人"
+    android:gravity="center_horizontal"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看推荐"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        />
+
+</LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include
+        layout="@layout/top_bar"
+        />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/share_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/layout_margin_left_right"
+        android:background="@drawable/bg_public"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ssdk_oks_classic_whatsapp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            >
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="通讯录"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="邀请通讯录好友"
+                android:textSize="15sp"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/share_qq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/layout_margin_left_right"
+        android:background="@drawable/bg_public"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ssdk_oks_classic_qq"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            >
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QQ"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="邀请QQ好友"
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/share_wechat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/layout_margin_left_right"
+        android:background="@drawable/bg_public"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ssdk_oks_classic_wechat"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="微信"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="邀请微信好友"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

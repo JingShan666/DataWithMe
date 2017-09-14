@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/user_photo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        >
+    <ImageView
+        android:id="@+id/image_user"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/i3"
+        />
+
+        <TextView
+            android:id="@+id/user_de_name"
+
+            android:text="Anna"
+            android:textColor="@color/divider"
+            android:textSize="13sp"
+            android:textStyle="bold"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="15sp"
+            android:layout_height="15sp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginBottom="8dp"
+            />
+
+        <ImageView
+            android:id="@+id/if_online"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/circle_drawable_pressed"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="6dp"
+            />
+</RelativeLayout>
+</LinearLayout>

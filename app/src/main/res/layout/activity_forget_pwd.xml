@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+    <include
+        layout="@layout/toolbar"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请输入您注册时填写的邮箱，我们将发送修改密码的链接到此邮箱"
+        android:textSize="15sp"
+        android:textColor="@color/secondary_text"
+        android:layout_marginTop="15dp"
+        />
+
+    <EditText
+        android:id="@+id/input_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:hint="请输入 e-mail"
+        />
+    <Button
+        android:id="@+id/send"
+
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:background="@drawable/bg_login_button"
+        android:text="发送"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:textColor="#ffffff" />
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:id="@+id/use_policy"
+            android:clickable="true"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="继续表示您接受我们的用户条款和隐私条款,我们绝不会分享您的联系方式"
+            android:textSize="13sp"
+            android:paddingBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/secondary_text"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

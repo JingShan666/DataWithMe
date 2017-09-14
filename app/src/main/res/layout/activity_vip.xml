@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/top_bar"
+        />
+
+    <RelativeLayout
+        android:id="@+id/up_level"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        >
+
+    <LinearLayout
+        android:id="@+id/up_vip"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+
+        >
+        <ImageView
+            android:id="@+id/iv_upvip"
+            android:background="@color/colorAccent"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/king"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="升级会员"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+        <ImageView
+            android:id="@+id/iv_gold"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/arrow_right"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+    <View
+        android:layout_marginTop="0.5dp"
+        android:layout_height="2px"
+        android:background="@color/btn_gray_pressed_status"
+        android:layout_width="match_parent">
+
+    </View>
+    <RelativeLayout
+        android:id="@+id/buy_gold"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+
+            >
+            <ImageView
+                android:id="@+id/iv_gold"
+                android:background="#F4A460"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/gold3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="充值金币"
+                android:textSize="20sp"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center_vertical"
+                />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/arrow_right"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+    <View
+        android:layout_marginTop="0.5dp"
+        android:layout_height="2px"
+        android:background="@color/btn_gray_pressed_status"
+        android:layout_width="match_parent">
+
+    </View>
+    <RelativeLayout
+        android:id="@+id/transalete"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:id="@+id/iv_earth"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/accent"
+                android:src="@drawable/earth" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="精准翻译包"
+                android:textSize="20sp"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center_vertical"
+                />
+        </LinearLayout>
+        <ImageView
+
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/arrow_right"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+    <View
+        android:layout_marginTop="0.5dp"
+        android:layout_height="2px"
+        android:background="@color/btn_gray_pressed_status"
+        android:layout_width="match_parent">
+
+
+    </View>
+    <RelativeLayout
+        android:id="@+id/face"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+
+            >
+            <ImageView
+                android:id="@+id/iv_face"
+                android:background="@color/sky_blue"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/face"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="趣味表型帖"
+                android:textSize="20sp"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center_vertical"
+                />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/arrow_right"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+    <View
+        android:layout_marginTop="0.5dp"
+        android:layout_height="2px"
+        android:background="@color/btn_gray_pressed_status"
+        android:layout_width="match_parent">
+
+    </View>
+
+</LinearLayout>

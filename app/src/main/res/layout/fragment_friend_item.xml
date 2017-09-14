@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/item_refreash"
+        />
+
+    <TextView
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/friend_words"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="女人何苦为难女人"
+        android:textSize="15sp"
+        />
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:src="@drawable/i1"
+        android:visibility="gone"
+        />
+    <TextView
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/friend_dongtai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更新了头像"
+        android:textSize="15sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/friend_date"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"
+            android:text="今天"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/zan"
+            android:layout_gravity="center_vertical"
+            android:layout_width="25dp"
+            android:layout_height="15dp"
+            android:src="@drawable/vk"
+            />
+        <TextView
+            android:id="@+id/friend_zan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="7"
+            android:textSize="15sp" />
+        <ImageView
+            android:id="@+id/zan"
+            android:layout_gravity="center_vertical"
+            android:layout_width="25dp"
+            android:layout_height="15dp"
+            android:src="@drawable/vk"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:id="@+id/friend_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2"
+            android:textSize="15sp" />
+        <ImageView
+            android:id="@+id/zan"
+            android:layout_gravity="center_vertical"
+            android:layout_width="25dp"
+            android:layout_height="15dp"
+            android:src="@drawable/vk"
+            android:layout_marginLeft="15dp"
+            />
+
+
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/re_zan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        >
+        <ImageView
+            android:id="@+id/zan"
+            android:layout_gravity="center_vertical"
+            android:layout_width="25dp"
+            android:layout_height="15dp"
+            android:src="@drawable/vk"
+            android:layout_marginLeft="15dp"
+            />
+
+        <TextView
+            android:id="@+id/who_zan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anna"
+
+            />
+
+    </RelativeLayout>
+</LinearLayout>

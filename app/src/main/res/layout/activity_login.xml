@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        layout="@layout/toolbar"
+        />
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:hint="填写邮箱"
+        />
+    <EditText
+        android:id="@+id/userpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:hint="输入密码"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+    <Button
+        android:id="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_login_button"
+        android:text="登录"
+        android:layout_marginTop="20sp"
+        android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/new_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新用户注册"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/sky_blue"
+            />
+        <TextView
+            android:id="@+id/forget_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="忘记密码"
+            android:textColor="@color/sky_blue"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        >
+
+        <View
+            android:layout_height="2px"
+            android:visibility="visible"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/secondary_text"
+            android:layout_width="83dp">
+
+        </View>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="第三方账号快捷登录"
+            android:textColor="@color/secondary_text"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_height="2px"
+            android:visibility="visible"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/secondary_text"
+            android:layout_width="83dp">
+
+        </View>
+
+
+    </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:weightSum="4"
+            >
+
+            <ImageView
+                android:id="@+id/qq_img"
+                android:layout_weight="1"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:src="@drawable/qq"
+
+                />
+            <ImageView
+                android:id="@+id/wechat_img"
+                android:layout_weight="1"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:src="@drawable/wx"
+
+                />
+            <ImageView
+                android:id="@+id/vk_img"
+                android:layout_weight="1"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:src="@drawable/vk"
+
+                />
+            <ImageView
+                android:id="@+id/fb_img"
+                android:layout_weight="1"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:src="@drawable/facebook"
+
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
